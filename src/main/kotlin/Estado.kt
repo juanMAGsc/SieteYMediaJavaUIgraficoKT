@@ -36,7 +36,7 @@ class Estado {
 
     fun pasarTurno() {
 
-        while (puntosBanca <= puntosjugador ) {
+        while (puntosBanca < puntosjugador ) {
             var nuevopunto = 0.0
             val nuevoA = this.cartasmaquina.toMutableList()
             nuevoA.add(juego.baraja.darCartas(1)[0])
